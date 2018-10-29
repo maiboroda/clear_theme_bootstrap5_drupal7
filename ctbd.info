@@ -1,0 +1,30 @@
+name = CTBD 
+description = Clear theme Bootstrap 4, Drupal 7. 
+package = Core
+version = 1.0
+core = 7.x
+screenshot = screenshot.png
+
+regions[ctbd_top_logo] = CTBD Top Logo
+regions[ctbd_top_nav] = CTBD Top Nav
+regions[ctbd_top_contact] = CTBD Top Contact
+regions[ctbd_header] = CTBD Header
+regions[ctbd_sidebar] = CTBD Sidebar
+regions[ctbd_content] = CTBD Content
+regions[ctbd_higher_content] = CTBD Higher Content
+regions[ctbd_lower_content] = CTBD Lower Content
+regions[ctbd_footer] = CTBD Footer
+regions[ctbd_bottom_logo] = CTBD Bottom Logo
+regions[ctbd_bottom_nav] = CTBD Bottom Nav
+regions[ctbd_bottom_contact] = CTBD Bottom Contact
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/site.css
+
+scripts[] = js/jquery-3.3.1.min.js
+scripts[] = js/popper.min.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/tooltip.min.js
+scripts[] = js/site.js
+
+php = DRUPAL_MINIMUM_PHP
