@@ -30,6 +30,9 @@
                     <?php if (!empty($title)): ?>
                         <h1><?php print $title; ?></h1>
                     <?php endif; ?>
+                    <?php if (!empty($tabs)): ?>
+                        <?php print render($tabs); ?>
+                    <?php endif; ?>
                     <?php print render($page['content']); ?>
                 </div>
             </div>
