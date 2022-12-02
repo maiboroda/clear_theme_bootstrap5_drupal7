@@ -1,2 +1,2 @@
-# Clear theme Bootstrap 4, Drupal 7
-Тема заготовка для разработки сайт на основе Bootstrap 4 для Drupal 7.
+# Clear theme Bootstrap 5, Drupal 7
+Тема заготовка для разработки сайт на основе Bootstrap 5 для Drupal 7.
