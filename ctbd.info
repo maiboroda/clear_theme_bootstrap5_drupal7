@@ -1,7 +1,7 @@
 name = CTBD 
-description = Clear theme Bootstrap 4, Drupal 7. 
+description = Clear theme Bootstrap 5, Drupal 7. 
 package = Core
-version = 1.0
+version = 1.1
 core = 7.x
 screenshot = screenshot.png
 
@@ -21,10 +21,8 @@ regions[ctbd_bottom_contact] = CTBD Bottom Contact
 stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/site.css
 
-scripts[] = js/jquery-3.3.1.min.js
-scripts[] = js/popper.min.js
+scripts[] = js/jquery-3.6.1.min.js
 scripts[] = js/bootstrap.min.js
-scripts[] = js/tooltip.min.js
 scripts[] = js/site.js
 
 php = DRUPAL_MINIMUM_PHP
